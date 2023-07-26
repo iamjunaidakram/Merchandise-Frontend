@@ -1,0 +1,96 @@
+.instagram {
+  .insta_header {
+    background: #ffffff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 18px;
+      color: #000000;
+      margin: 0px;
+      font-weight: 800;
+    }
+  }
+  .insta_pic {
+    height: 700px;
+    width: 100%;
+    padding: 0px;
+    border-radius: 0px;
+    border: none;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    &:hover {
+      background: #000000;
+    }
+  }
+}
+.insta_modal {
+  width: 1000px !important;
+  .ant-modal-content {
+    padding: 0px !important;
+    border-radius: 0px !important;
+    .ant-modal-close {
+      top: 28px !important;
+      .ant-modal-close-x {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .profile_header {
+      padding: 20px 10px;
+      display: flex;
+      align-items: center;
+      .profile_content {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 14px;
+        border-bottom: 1px solid lightgrey;
+        .profile_img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          margin-right: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid darkgrey;
+        }
+        .profile_name {
+          font-weight: 500;
+        }
+      }
+    }
+    .profile_body {
+      padding: 10px 20px;
+      .profile_description {
+        p {
+          word-wrap: break-word;
+          white-space: pre-wrap;
+          clear: both;
+          color: #666;
+          width: 100%;
+        }
+      }
+      .profile_source {
+        p {
+          padding-top: 10px;
+          word-wrap: break-word;
+          white-space: pre-wrap;
+          clear: both;
+          color: #666;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .ant-modal-footer {
+    display: none !important;
+  }
+}

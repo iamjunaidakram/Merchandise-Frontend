@@ -1,0 +1,30 @@
+.bg-dark{
+    background-color: #000000 !important;
+}
+.navbar{
+    // position: absolute;
+    // top: 35px;
+    width: 100%;
+    min-height: 80px;
+    .navbar-collapse{
+        a{
+            color: #ffffff;
+            padding: 0px !important;
+            margin: 0px 14px !important;
+            font-size: 13px;
+            text-transform: capitalize;
+            font-family: "Roboto Condensed", sans-serif;
+            letter-spacing: 1.0px;
+            &:hover{
+                border-bottom: 1px solid #ffffff;
+            }
+        }
+    }
+    
+}
+.navbar-brand{
+    text-transform: capitalize;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 900;
+}

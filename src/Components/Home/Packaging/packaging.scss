@@ -1,0 +1,49 @@
+.packaging {
+  background: #000000;
+
+  padding: 100px 0px 0px;
+  hr {
+    opacity: 100%;
+    height: 6px;
+    background: #ffffff;
+    width: 10%;
+    margin: 0 auto;
+  }
+  h1 {
+    color: #ffffff;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 1.225;
+    font-style: normal;
+    font-weight: 800;
+  }
+  p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.225;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  h2 {
+    color: #b6fa03;
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.225;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .portfolio {
+    padding: 150px 0px 50px;
+    .portfolio_img {
+      img {
+        height: 350px;
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+  }
+}

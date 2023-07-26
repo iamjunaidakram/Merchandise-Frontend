@@ -1,0 +1,177 @@
+.summer_section{
+    h1{
+        margin: 40px 0px 80px 0px;
+        font-weight: 400;
+    }
+    .products_grid{
+        margin: 40px 0px;
+        .ant-card{
+            width: 100% !important;
+            border: none !important;
+            .ant-card-body{
+                padding: 24px 0px !important;
+                .ant-card-meta-title{
+                    font-weight: 400 !important;
+                    margin-bottom: 4px;
+                }
+                .ant-card-meta-description{
+                    font-weight: 400 !important;
+                    color: black;
+                    font-size: 15px;
+                    margin: 0px 0px 10px 0px;
+                }
+                button{
+                    width: 100%;
+                    border-radius: 0px;
+                    height: 42px;
+                    background: none !important;
+                    border: 1px solid black;
+                    color: black;
+                    text-transform: capitalize;
+                    margin: 10px 0px;
+                    &:hover{
+                        border: 3px solid black;
+                    }
+                }
+            }
+            &:hover{
+                box-shadow: none !important;
+                .ant-card-meta-title{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+.product_modal{
+    display: flex;
+    width: 100%;
+    width: 1000px !important;
+    .product_img{
+        width: 40%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .product_detail{
+        width: 60%;
+        padding: 10px 40px;
+        h1{
+            font-weight: 500;
+            font-size: 34px;
+            margin: 0px 0px 20px 0px;
+            line-height: 46px;
+        }
+        h2{
+            font-weight: 400;
+            font-size: 20px;
+            margin: 0px 0px 10px 0px;
+        }
+        .product_sizes{
+            h3{
+                font-weight: 400;
+                font-size: 14px;
+                margin: 30px 0px 5px 0px;
+            }
+            .product_modal_sizes{
+                label{
+                    margin: 10px 10px 10px 0px;
+                    border-radius: 0px;
+                &:hover{
+                    span{
+                        color: grey !important;
+                    }
+                }
+                }
+            }
+        }
+        .product_quantity{
+            h3{
+                font-weight: 400;
+                font-size: 14px;
+                margin: 20px 0px 5px 0px;
+            }
+            .product_modal_quantity{
+                margin: 10px 0px;
+                border-radius: 0px;
+                position: relative;
+                height: 45px;
+                width: 120px;
+                border: 1px solid #000;
+                .ant-input-number-handler-wrap{
+                    opacity: 1;
+                    width: 100%;
+                    flex-direction: row;
+                    background: none !important;
+                    .ant-input-number-handler-up{
+                        position: absolute;
+                        left: 0px;
+                        height: 100%;
+                        width: 40px;
+                        border-radius: 0px;
+                        border: 0px;
+                        z-index: 99999999;
+                    }
+                    .ant-input-number-handler-down{
+                        position: absolute;
+                        right: 0px;
+                        height: 100%;
+                        width: 40px;
+                        border-radius: 0px;
+                        border: 0px;
+                        z-index: 99999999;
+                    }
+                }
+                .ant-input-number-input-wrap{
+                    padding: 0px 40px;
+                    height: 45px;
+                    z-index: 99999;
+                    position: relative;
+                    input{
+                        height: 45px;
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .button_group{
+            .cart_btn{
+                margin: 20px 0px 10px 0px;
+                height: 45px;
+                width: 100%;
+                border-radius: 0px;
+                border: 1px solid #000;
+                background: transparent !important;
+                color: #000;
+            }
+            .buy_btn{
+                margin: 0px 0px 20px 0px;
+                height: 45px;
+                width: 100%;
+                border-radius: 0px;
+                background: black;
+            }
+            .details_btn{
+                background: none;
+                box-shadow: none;
+                color: #000;
+                padding: 20px 0px;
+                font-weight: 500;
+            }
+        }
+    }
+    .ant-modal-content{
+        border-radius: 0px !important;
+        padding: 30px !important;
+    }
+    .ant-modal-footer{
+        display: none;
+    }
+}
+.ant-radio-group-solid :where(.css-dev-only-do-not-override-htwhyh).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled){
+    background: #000 !important;
+    border-color: #000 !important;
+}
